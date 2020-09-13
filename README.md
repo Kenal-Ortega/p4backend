@@ -39,7 +39,7 @@ Multiple visitors will be able to login and leave their comments on to-do's.
 
 ## Time/Priority Matrix 
 
-[Time and Priority Matrix](https://res.cloudinary.com/dinqukx6a/image/upload/v1598235735/Project%203/Music_Journal_TPM_backend_i50jc6.jpg)
+[Time and Priority Matrix]()
 
 
 
