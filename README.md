@@ -73,7 +73,6 @@ Multiple visitors will be able to login and leave their comments on to-do's.
 | --- | :---: |  :---: | :---: | :---: |
 | Create two step authentiction | L | 5hr | hr | hr|
 | Accept google doc's as to-do's | L | 5hr | N/A | N/A|
-
 | Total | H | 10hrs| N/A | hrs |
 
  
