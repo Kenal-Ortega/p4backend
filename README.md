@@ -28,13 +28,13 @@ Multiple visitors will be able to login and leave their comments on to-do's.
 
 
 ## App Build-out Links 
-[Front-end deployed URL](https://https://gifted-varahamihira-15a125.netlify.app/#/)
+[Front-end deployed URL](https://gifted-varahamihira-15a125.netlify.app/#/)
 
-[Front-end GitHub Repo](https://https://github.com/Kenal-Ortega/p4frontend)
+[Front-end GitHub Repo](https://github.com/Kenal-Ortega/p4frontend)
 
-[Back-end deployed URL](https://https://p4backend93.herokuapp.com/)
+[Back-end deployed URL](https://p4backend93.herokuapp.com/)
 
-[Back-end GitHub Repo](https://https://github.com/Kenal-Ortega/p4backend)
+[Back-end GitHub Repo](https://github.com/Kenal-Ortega/p4backend)
 
 
 ## Time/Priority Matrix 
