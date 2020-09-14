@@ -7,18 +7,17 @@ class Todo(models.Model):
     class Meta:
         verbose_name_plural = 'todo'
 
-    name = models.CharField(max_length=255, default=None)
+    task = models.CharField(max_length=255, default=None)
     objective = models.CharField(max_length=255)
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.name
+        return self.task
 
 
 class Achievements(models.Model):
-    name = models.CharField(max_length=255, default=None)
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     todo = models.ForeignKey(Todo, related_name='todo', on_delete=models.CASCADE)
 
@@ -28,4 +27,4 @@ class Achievements(models.Model):
     is_public = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.name
+        return self.todo.task

@@ -8,7 +8,7 @@ class AchievementsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Achievements
         fields = ('id', 'owner', 'todo', 'objective', 'created_at',
-                  'updated_at', 'is_public', 'name')
+                  'updated_at', 'is_public', 'task')
 
 
 class TodoSerializer(serializers.ModelSerializer):
@@ -18,4 +18,4 @@ class TodoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Todo
         fields = ('id', 'objective', 'owner', 'created_at', 'updated_at',
-                  'name')
+                  'task')
