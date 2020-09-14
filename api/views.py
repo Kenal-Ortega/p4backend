@@ -41,6 +41,11 @@ class TodoViewSet(viewsets.ModelViewSet):
         serializer.save(owner=self.request.user)
 
 
+class TodoAchievements(generics.ListCreateAPIView):
+    permission_classes = (IsAuthenticated,)
+    serializer_class = AchievementsSerializer
+
+
 class SingleTodoAchievements(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
 
