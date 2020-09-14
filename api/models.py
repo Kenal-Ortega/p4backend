@@ -13,7 +13,7 @@ class Todo(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.name
+        return self.owner
 
 
 class Achievements(models.Model):
@@ -26,4 +26,4 @@ class Achievements(models.Model):
     is_public = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.name
+        return self.owner
