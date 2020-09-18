@@ -3,6 +3,7 @@ from rest_framework import viewsets
 from rest_framework.exceptions import (
     ValidationError, PermissionDenied
 )
+
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from api.models import Todo, Achievements
 from api.serializers import TodoSerializer, AchievementsSerializer
@@ -21,7 +22,7 @@ class TodoViewSet(viewsets.ModelViewSet):
     def create(self, request):
         # check if category already exists for current logged in user
         todo = Todo.objects.filter(
-            name=request.data.get('objective'),
+            task=request.data.get('task'),
             owner=request.user
         )
         if todo:
@@ -32,6 +33,7 @@ class TodoViewSet(viewsets.ModelViewSet):
         # user can only delete category
 
     def destroy(self, request, *args, **kwargs):
+        print(self.kwargs["pk"])
         todo = Todo.objects.get(pk=self.kwargs["pk"])
         if not request.user == todo.owner:
             raise PermissionDenied("You can not delete this objective")

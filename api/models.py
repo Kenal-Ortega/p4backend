@@ -7,8 +7,8 @@ class Todo(models.Model):
     class Meta:
         verbose_name_plural = 'todo'
 
-    task = models.CharField(max_length=255, default=None)
-    objective = models.CharField(max_length=255)
+    task = models.CharField(max_length=255, default=None, null=True)
+    objective = models.CharField(max_length=255, null=True)
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
