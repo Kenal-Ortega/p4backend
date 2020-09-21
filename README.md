@@ -39,7 +39,7 @@ Multiple visitors will be able to login and leave their comments on to-do's.
 
 ## Time/Priority Matrix 
 
-[Time and Priority Matrix]()
+[Time and Priority Matrix](https://res.cloudinary.com/dlcjnygpy/image/upload/v1600688642/Screen_Shot_2020-09-21_at_7.41.03_AM_vitnsn.png)
 
 
 
