@@ -4,12 +4,12 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
+|Day 1| Project Description | Complete
 |Day 1| Deploy backend | Complete
-|Day 1| Priority Matrix / Timeline | Incomplete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 1| Priority Matrix / Timeline | Complete
+|Day 2| Working RestAPI | Complete
+|Day 3| Core Application Structure | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 
@@ -60,28 +60,19 @@ Multiple visitors will be able to login and leave their comments on to-do's.
 #### MVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create user model | H | 2hr | hr | hr|
-| Give user C.R.U.D functionality | H | 3hr | hr | hr|
-| Authorize user | H | 2hr | hr | hr|
-| Deploy to heroku | H | 1hr| hr | hr |
-| Troubleshooting/Research| H | 10hr | hr | hr|
-| Data modeling | H | 3hrs| hr | hr |
-| Total | H | 21hrs| hrs | hrs |
+| Create user model | H | 2hr | 3hr | 3hr|
+| Give user C.R.U.D functionality | H | 3hr | 6hr | 6hr|
+| Authorize user | H | 2hr | 5hr | 5hr|
+| Deploy to heroku | H | 1hr| 1hr | 1hr |
+| Troubleshooting/Research| H | 10hr | 10hr | 10hr|
+| Data modeling | H | 3hrs| 3hr | 3hr |
+| Total | H | 21hrs| 28hrs | 28hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create two step authentiction | L | 5hr | hr | hr|
+| Create two step authentiction | L | 5hr | N/A | N/A|
 | Accept google doc's as to-do's | L | 5hr | N/A | N/A|
-| Total | H | 10hrs| N/A | hrs |
+| Total | H | 10hrs| N/A | N/A |
 
- 
-
-## Code Snippet
-
-BLANK  
-
-```
-BLANK
-```
 
